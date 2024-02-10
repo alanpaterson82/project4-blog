@@ -73,6 +73,11 @@
     </nav>
 
     <main class="flex-shrink-0 main-bg">
+        {% if user.is_authenticated %}
+    <p class="text-end m-3">Your Superhero name is {{ user }}</p>
+    {% else %}
+    <p class="text-end m-3">You are not logged in</p>
+    {% endif %}
 
         {% block content %}
         <!-- Content Goes here -->
