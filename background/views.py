@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import Background
-# Create your views here.
 
 
 def background_info(request):
