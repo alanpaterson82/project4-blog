@@ -2,16 +2,20 @@
 
 The website is available to view [here](https://project4-blog-ap-0464f823fc69.herokuapp.com/)
 
-![am-i-responsive](staticfiles/images/am-i-responsive.png)
+![am-i-responsive](documentation/images/am-i-responsive.png)
 
 ## UX Design
 ## Features
 ## Technologies
 ## Manual Testing
-- Responsiveness
 - Browser compatibility
+
+Tested in Google Chrome, 
+
 - Bugs resolved & unresolved
 - Lighthouse testing
+
+![lighthouse](documentation/images/lighthouse.png)
 - Code validation
 - User stories
 - Features
