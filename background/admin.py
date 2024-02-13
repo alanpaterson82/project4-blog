@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Background
+from .models import Background, TestimonialRequest
 from django_summernote.admin import SummernoteModelAdmin
 
 
@@ -7,3 +7,8 @@ from django_summernote.admin import SummernoteModelAdmin
 class BackgroundAdmin(SummernoteModelAdmin):
 
     summernote_fields = ('content',)
+
+@admin.register(TestimonialRequest)
+class TestimonialRequestAdmin(admin.ModelAdmin):
+
+    list_display = ('message', 'read',)

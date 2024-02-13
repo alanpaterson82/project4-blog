@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
-{% block content %}
 {% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
 <div class="container mt-5">
   <div class="row">
     <div class="col-4 text-center">
@@ -24,6 +26,21 @@
       <!-- Updated on field goes in here -->
 
       <p class="text-end"><em>Updated on: {{ background.updated_on }}</em></p>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6 my-5">
+        <h2>Let us know know how much you love us!</h2>
+        <p>Please get in touch to let us know your thoughts on anything Superheroes Unite related - good or bad!</p>
+
+        <!-- add your form here. Your submit button should 
+                            have the classes of btn, btn-secondary -->
+        <form method="post">
+          {{ testimonial_form | crispy }}
+          {% csrf_token %}
+          <button class="btn btn-secondary"
+            type="submit">Submit</button>
+        </form>
     </div>
   </div>
 </div>
