@@ -1,6 +1,9 @@
 ## Introduction
 
 The website is available to view [here](https://project4-blog-ap-0464f823fc69.herokuapp.com/)
+
+![am-i-responsive](staticfiles/images/am-i-responsive.png)
+
 ## UX Design
 ## Features
 ## Technologies
