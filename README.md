@@ -127,7 +127,7 @@ As a site admin I can review testimonials so that the site can be improved where
 - Heroku - to deploy the app
 - Cloudinary
 - Chrome Developer Tools - to test responsiveness and generate a Lighthouse report
-- Font Awesome - for any the site icons
+- Font Awesome - for any site icons
 - Am I Responsive - to demonstrate suitability on all devices
 -CI's Python Linter - for automated testing of the Python code
 - W3C Markup Validator - to test the HTML code
@@ -181,7 +181,33 @@ The above was recolved with a system reset via Tutor Support.
 
 ## Deployment
 
+The application was deployed to Heroku and this was completed following the steps below;
 
+Login to your personal Heroku dashboard
+Click on New => Create new app.
+Choose a unique name for your app and click on 'create app'
+Click on the Resources tab and delete any existing add-ons
+Navigate to the Settings tab => click on Reveal Config Vars.
+Copy the DATABASE_URL url value to the clipboard
+Create a new env.py file in your top level directory and complete as below
+
+![env.py](static/images/env-py.png)
+
+Your secret key should be unique to you
+In Heroku click on 'settings' then 'Reveal Config Vars'
+Add SECRET_KEY to Config Vars with your unique key as the value
+
+The Heroku resources tab should mirror the below;
+
+![heroku](static/images/heroku.png)
+
+When the project is ready to be submitted, the following actions must be taken;
+
+Set Debug to False in settings.py
+Git add, commit and push all changes
+Deploy on Heroku by clicking Deploy Branch in the Deploy tab
+
+![deploy-branch](static/images/deploy-branch.png)
 
 
 ## References
