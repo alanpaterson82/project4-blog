@@ -183,4 +183,4 @@ The above was recolved with a system reset via Tutor Support.
 
 ## References
 
-This project relied heavily on the walkthrough poject I Think Therefore I Blog, with customisation added to demonstrate my capability and produce an interesting and unique app.
+This project relied heavily on the walkthrough project I Think Therefore I Blog, with customisation added to demonstrate my capability and produce an interesting and unique app.
