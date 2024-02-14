@@ -1,6 +1,6 @@
-## Introduction
+# Superheroes Unite
 
-Superheroes Unite is my fourth portfolio project and is a Superhero blog with posts relating to the Marvel and DC Universes. It's aimed at anyone who has an exisitng, or new interest in the world of superheroes, and who may even be keen to submit their own comments on existing posts.
+Superheroes Unite is my fourth portfolio project and is a Superhero blog with posts relating to the Marvel and DC Universes. It's aimed at anyone who has an exisitng, or new interest in the world of superheroes, and who may be keen to submit their own comments on existing posts.
 
 The full website is available to view [here](https://project4-blog-ap-0464f823fc69.herokuapp.com/)
 
@@ -10,7 +10,7 @@ The full website is available to view [here](https://project4-blog-ap-0464f823fc
 
 ### **Project Goals**
 
-The primary goals for this project was to create a blog with full CRUD functionality so that users can register an account, view posts, add comments and also edit and delete them if needed.
+The primary goal for this project was to create a blog with full CRUD functionality so that users can register an account, view posts, add comments and also edit and delete them if needed.
 
 ### **Strategy**
 
@@ -48,7 +48,7 @@ As a guest user I can view all posts so that I can gain information
 
 As a site user I can edit and delete my comments so that I am in control of my personal content
 
-* AC1 - When logged in, they can delete thier existing comments
+* AC1 - When logged in, they can delete their existing comments
 * AC2 - When logged in, they can amend their existing comments
 
 <br>
@@ -129,7 +129,7 @@ As a site admin I can review testimonials so that the site can be improved where
 - Chrome Developer Tools - to test responsiveness and generate a Lighthouse report
 - Font Awesome - for any site icons
 - Am I Responsive - to demonstrate suitability on all devices
--CI's Python Linter - for automated testing of the Python code
+- CI's Python Linter - for automated testing of the Python code
 - W3C Markup Validator - to test the HTML code
 - W3C CSS Validator - to test the CSS code
 
@@ -142,7 +142,7 @@ Unfortunately, due to time constraints I was unable to complete the intended man
 
 ## Browser compatibility
 
-Tested in Google Chrome and on an phone 13 Pro Max
+Tested in Google Chrome and on an iphone 13 Pro Max
 
 ## Bugs resolved & unresolved
 
@@ -155,14 +155,15 @@ When implementing the testimonial form, there were various errors received (exam
 
 There was a query regarding committing insecure keys, however this was resolved with the clarification of env.py being included in the .gitignore file.
 
-AS I was referencing the walkthrough project, and was initially using CodeAnywhere before transferring to Gitpod Workspaces, there were certain queries to be overcome, including replacing certain code such as the CSRF Trusted Origins being amended to gitpod.io.
+As I was referencing the walkthrough project, and was initially using CodeAnywhere before transferring to Gitpod Workspaces, there were certain queries to be overcome, including replacing existing code such as the CSRF Trusted Origins being amended to gitpod.io.
 
 When trying to migrate with 0001_initial.py I received the following error:
 
 _It is impossible to add a non-nullable field 'content' to post with specifying a default. From the source code, content = models. TextField() had no content in the parentheses._
 
-The above was recolved with a system reset via Tutor Support.
+The above was resolved with a system reset via Tutor Support.
 
+The latter deployments to Heroku don't appear to be successful in transferring the stylistic changes that have been made, however, all of the relevant forms, notifications and commands appear to be working, as well as the Django Administration functions. This may be related to the Debug value (True/ False).
 
 ## Lighthouse testing
 
@@ -183,36 +184,47 @@ The above was recolved with a system reset via Tutor Support.
 
 The application was deployed to Heroku and this was completed following the steps below;
 
-Login to your personal Heroku dashboard
-Click on New => Create new app.
-Choose a unique name for your app and click on 'create app'
-Click on the Resources tab and delete any existing add-ons
-Navigate to the Settings tab => click on Reveal Config Vars.
-Copy the DATABASE_URL url value to the clipboard
-Create a new env.py file in your top level directory and complete as below
+- Logging in to the Heroku dashboard
+- Clicking on 'New' then 'Create new app'
+- Choosing a unique name for the app and clicking 'create app'
+- Clicking on the 'Resources' tab and deleting any existing add-ons
+- Navigating to the Settings tab and clicking on 'Reveal Config Vars'
+- Copying the DATABASE_URL url value to the clipboard
+- Creating a new env.py file in the top level directory and completing as below
+
+<br>
 
 ![env.py](static/images/env-py.png)
 
-Your secret key should be unique to you
-In Heroku click on 'settings' then 'Reveal Config Vars'
-Add SECRET_KEY to Config Vars with your unique key as the value
+- **The secret key should be unique to you**
+
+- In Heroku clicking on 'Settings' then 'Reveal Config Vars'
+- Adding SECRET_KEY to the Config Vars with the unique key as the value
+
+<br>
 
 The Heroku resources tab should mirror the below;
+
+<br>
 
 ![heroku](static/images/heroku.png)
 
 When the project is ready to be submitted, the following actions must be taken;
 
-Set Debug to False in settings.py
-Git add, commit and push all changes
-Deploy on Heroku by clicking Deploy Branch in the Deploy tab
+- Set Debug to False in settings.py
+- Git add, commit and push all changes
+- Deploy on Heroku by clicking Deploy Branch in the Deploy tab
+
+<br>
 
 ![deploy-branch](static/images/deploy-branch.png)
 
 
 ## References
 
-This project relied heavily on the walkthrough project I Think Therefore I Blog, with customisation added to demonstrate my capability and produce an interesting and unique app.
+This project relied heavily on following the walkthrough project 'I Think Therefore I Blog', with customisation added to demonstrate my capability and produce an interesting and unique app for users. Any direct copying of existing code is completely unintentional
+
+[Medium.com](https://medium.com/) for inspiration
 
 ## Future Actions/ Features
 
