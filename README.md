@@ -1,6 +1,6 @@
 ## Introduction
 
-Superheroes Unite is my fourth portfolio project and is a Superhero blog with post relating to the Marvel and DC Universe. It's aimed at anyone who has an exisitng, or new interest in the world of superheroes, and who may even be keen to submit their own comments on existing posts.
+Superheroes Unite is my fourth portfolio project and is a Superhero blog with posts relating to the Marvel and DC Universes. It's aimed at anyone who has an exisitng, or new interest in the world of superheroes, and who may even be keen to submit their own comments on existing posts.
 
 The full website is available to view [here](https://project4-blog-ap-0464f823fc69.herokuapp.com/)
 
@@ -8,11 +8,11 @@ The full website is available to view [here](https://project4-blog-ap-0464f823fc
 
 ## UX Design
 
-Project Goals
+### **Project Goals**
 
 The primary goals for this project was to create a blog with full CRUD functionality so that users can register an account, view posts, add comments and also edit and delete them if needed.
 
-Strategy
+### **Strategy**
 
 An agile methodology was used when planning this project - a kanban board ([view it here](https://github.com/users/alanpaterson82/projects/7/views/1)) was used in Github with various issues having their own acceptance criteria and tasks to be completed.
 
@@ -127,19 +127,20 @@ As a site admin I can review testimonials so that the site can be improved where
 - Heroku - to deploy the app
 - Cloudinary
 - Chrome Developer Tools - to test responsiveness and generate a Lighthouse report
-- Font Awesome - for all the site icons.
+- Font Awesome - for any the site icons
 - Am I Responsive - to demonstrate suitability on all devices
--CI's Python Linter - for automated testing of the Python code.
-- W3C Markup Validator - to test the HTML code.
-- W3C CSS Validator - to test the CSS code.
+-CI's Python Linter - for automated testing of the Python code
+- W3C Markup Validator - to test the HTML code
+- W3C CSS Validator - to test the CSS code
 
 ## Manual Testing
 
 Unfortunately, due to time constraints I was unable to complete the intended manual testing, however, testing was completed as the project took shape to ensure that there were no obvious issues.
+<br>
 
 ## Browser compatibility
 
-Tested in Google Chrome, 
+Tested in Google Chrome and on an phone 13 Pro Max
 
 ## Bugs resolved & unresolved
 
@@ -175,7 +176,9 @@ The above was recolved with a system reset via Tutor Support.
 ![W3C CSS](documentation/images/w3c-css.png)
 
 
-## Deployment (inc. forking and cloning)
+## Deployment
+
+
 
 
 ## References
