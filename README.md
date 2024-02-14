@@ -138,6 +138,8 @@ As a site admin I can review testimonials so that the site can be improved where
 Unfortunately, due to time constraints I was unable to complete the intended manual testing, however, testing was completed as the project took shape to ensure that there were no obvious issues.
 <br>
 
+![forms.py testing](static/images/forms-py-testing.png)
+
 ## Browser compatibility
 
 Tested in Google Chrome and on an phone 13 Pro Max
@@ -185,3 +187,18 @@ The above was recolved with a system reset via Tutor Support.
 ## References
 
 This project relied heavily on the walkthrough project I Think Therefore I Blog, with customisation added to demonstrate my capability and produce an interesting and unique app.
+
+## Future Actions/ Features
+
+- Significantly more testing to ensure that everything is in working order
+- Detailed database schema diagrams
+- Addition of labels and milestones
+- More detailed user stories
+- Debugging
+- Improved styling
+- Increased functionality when logged in eg ability to reset passwords
+- Increased functionality when trying to post a comment when not logged in i.e sending the user back to the login page
+- Increased security for editing and deleting comments
+
+
+
