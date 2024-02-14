@@ -126,7 +126,7 @@ As a site admin I can review testimonials so that the site can be improved where
 - GitHub - for storage and monitoring of the user stories
 - Heroku - to deploy the app
 - Cloudinary
-- Chrome Developer Tools - to test responsiveness, edit CSS code, debug JavaScript and generate Lighthouse reports.
+- Chrome Developer Tools - to test responsiveness and generate a Lighthouse report
 - Font Awesome - for all the site icons.
 - Am I Responsive - to demonstrate suitability on all devices
 -CI's Python Linter - for automated testing of the Python code.
@@ -134,11 +134,33 @@ As a site admin I can review testimonials so that the site can be improved where
 - W3C CSS Validator - to test the CSS code.
 
 ## Manual Testing
+
+Unfortunately, due to time constraints I was unable to complete the intended manual testing, however, testing was completed as the project took shape to ensure that there were no obvious issues.
+
 ## Browser compatibility
 
 Tested in Google Chrome, 
 
 ## Bugs resolved & unresolved
+
+![module-not-found](documentation/images/ModuleNotFoundError.png)
+
+When implementing the testimonial form, there were various errors received (example above) due to incorrect coding which was eventually resolved using various resources including:
+
+- Stack Overflow
+- The Slack Community
+
+There was a query regarding committing insecure keys, however this was resolved with the clarification of env.py being included in the .gitignore file.
+
+AS I was referencing the walkthrough project, and was initially using CodeAnywhere before transferring to Gitpod Workspaces, there were certain queries to be overcome, including replacing certain code such as the CSRF Trusted Origins being amended to gitpod.io.
+
+When trying to migrate with 0001_initial.py I received the following error:
+
+_It is impossible to add a non-nullable field 'content' to post with specifying a default. From the source code, content = models. TextField() had no content in the parentheses._
+
+The above was recolved with a system reset via Tutor Support.
+
+
 ## Lighthouse testing
 
 ![lighthouse](documentation/images/lighthouse.png)
@@ -153,9 +175,9 @@ Tested in Google Chrome,
 ![W3C CSS](documentation/images/w3c-css.png)
 
 
-- User stories
-- Features
 ## Deployment (inc. forking and cloning)
 
 
-## References (include EVERYTHING!)
+## References
+
+This project relied heavily on the walkthrough poject I Think Therefore I Blog, with customisation added to demonstrate my capability and produce an interesting and unique app.
