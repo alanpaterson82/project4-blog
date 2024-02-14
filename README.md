@@ -4,7 +4,7 @@ Superheroes Unite is my fourth portfolio project and is a Superhero blog with po
 
 The full website is available to view [here](https://project4-blog-ap-0464f823fc69.herokuapp.com/)
 
-![am-i-responsive](documentation/images/am-i-responsive.png)
+![am-i-responsive](static/images/am-i-responsive.png)
 
 ## UX Design
 
@@ -80,27 +80,27 @@ As a site admin I can review testimonials so that the site can be improved where
 
 **Navigation Bar when logged out**
 
-![navigation bar](documentation/images/navigation-bar-logged-out.png)
+![navigation bar](static/images/navigation-bar-logged-out.png)
 
 **Navigation Bar when logged in**
 
-![navigation bar 2](documentation/images/navigation-bar-logged-in.png)
+![navigation bar 2](static/images/navigation-bar-logged-in.png)
 
 **Homepage**
 
-![homepage](documentation/images/homepage.png)
+![homepage](static/images/homepage.png)
 
 **Background & Testimonial Page**
 
-![background and testimonial](documentation/images/background-and-testimonial-page.png)
+![background and testimonial](static/images/background-and-testimonial-page.png)
 
 **Comments Page - Example**
 
-![comments page](documentation/images/comments-page.png)
+![comments page](static/images/comments-page.png)
 
 **Django Administration**
 
-![django administration](documentation/images/django-administration.png)
+![django administration](static/images/django-administration.png)
 
 
 ## Technologies
@@ -144,7 +144,7 @@ Tested in Google Chrome and on an phone 13 Pro Max
 
 ## Bugs resolved & unresolved
 
-![module-not-found](documentation/images/ModuleNotFoundError.png)
+![module-not-found](static/images/ModuleNotFoundError.png)
 
 When implementing the testimonial form, there were various errors received (example above) due to incorrect coding which was eventually resolved using various resources including:
 
@@ -164,16 +164,17 @@ The above was recolved with a system reset via Tutor Support.
 
 ## Lighthouse testing
 
-![lighthouse](documentation/images/lighthouse.png)
+![lighthouse](static/images/lighthouse.png)
+
 ## Code validation
 
 **W3C Markup**
 
-![W3C Markup Validation](documentation/images/w3c-markup-validation.png)
+![W3C Markup Validation](static/images/w3c-markup-validation.png)
 
 **W3C CSS**
 
-![W3C CSS](documentation/images/w3c-css.png)
+![W3C CSS](static/images/w3c-css.png)
 
 
 ## Deployment
